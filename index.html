@@ -19,7 +19,6 @@
                           <ul class="dropdown-menu">
                           <li><a class="dropdown-item" href="./DocumentalesNoSQL.html">Bases de datos documentales</a></li>
                           <li><a class="dropdown-item" href="./Clave-valor.html">Bases de datos clave-valor</a></li>
-                          <li><hr class="dropdown-divider"></li>
                           <li><a class="dropdown-item" href="./columnas.html">Bases de datos Orientadas a Columnas</a></li>
                           <li> <a class="dropdown-item" href="./grafos.html">Bases de datos de grafos</a></li>
                             </ul>
@@ -27,25 +26,37 @@
                     </ul>    
                 </div>
                 <div class="col-8">
-                    <h1> Bases de datos NOSQL</h1>
+                    <div class="container bg-primary rounded"><h1 class="text-center"> Bases de datos NOSQL</h1></div>
+                    
                     <p class="text-center">Una base de datos NoSQL (Not Only SQL) es un sistema de gestión de bases de datos que no utiliza el modelo de tablas relacionales típico de las bases de datos SQL tradicionales. En lugar de eso, las bases de datos NoSQL están diseñadas para manejar grandes volúmenes de datos y ofrecer alta flexibilidad y escalabilidad. Se utilizan principalmente cuando los datos no encajan bien en un esquema tabular rígido o cuando se requieren altas tasas de escritura y lectura.<br>
-                        Características Principales de las Bases de Datos NoSQL<br>
-                        
-                            Flexibilidad del Esquema:<br>
-                                Las bases de datos NoSQL no requieren un esquema predefinido. Los datos pueden tener estructuras variables, lo que permite una mayor agilidad en la incorporación de nuevos tipos de datos sin necesidad de modificar esquemas.<br>
-                            Escalabilidad Horizontal:<br>
-                                Estas bases de datos están diseñadas para escalar horizontalmente, es decir, se pueden agregar más servidores para repartir la carga de trabajo, en lugar de escalar verticalmente mediante la mejora del hardware de un solo servidor.<br>
-                        
-                            Modelos de Datos Diversos:<br>
-                                Documentos: Almacenan datos en documentos tipo JSON o BSON (por ejemplo, MongoDB).<br>
-                                Columnas: Utilizan un modelo de almacenamiento basado en columnas (por ejemplo, Apache Cassandra).<br>
-                                Clave-Valor: Almacenan datos como pares clave-valor (por ejemplo, Redis).<br>
-                                Grafos: Especializadas en gestionar datos altamente interconectados (por ejemplo, Neo4j).<br>
-                        
-                            Alta Disponibilidad y Tolerancia a Fallos:<br>
-                                Las bases de datos NoSQL están diseñadas para garantizar la disponibilidad y la recuperación ante fallos mediante la replicación de datos y otras técnicas de redundancia.<br>                  
-                            Rendimiento:<br>
-                                Optimizadas para operaciones de lectura y escritura rápidas, lo que las hace adecuadas para aplicaciones que requieren procesamiento de grandes volúmenes de datos en tiempo real.<br>
+                        <h2>Características Principales de las Bases de Datos NoSQL</h2><br>
+                        <table class="table-responsive table-bordered border-primary">
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Flexibilidad del Esquemas</th>
+                                    <td>Las bases de datos NoSQL no requieren un esquema predefinido. Los datos pueden tener estructuras variables, lo que permite una mayor agilidad en la incorporación de nuevos tipos de datos sin necesidad de modificar esquemas.</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Escalabilidad Horizontal</th>
+                                    <td> Estas bases de datos están diseñadas para escalar horizontalmente, es decir, se pueden agregar más servidores para repartir la carga de trabajo, en lugar de escalar verticalmente mediante la mejora del hardware de un solo servidor.</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Modelos de Datos Diversos:</th>
+                                    <td>Documentos: Almacenan datos en documentos tipo JSON o BSON (por ejemplo, MongoDB).
+                                        Columnas: Utilizan un modelo de almacenamiento basado en columnas (por ejemplo, Apache Cassandra).<br>
+                                        Clave-Valor: Almacenan datos como pares clave-valor (por ejemplo, Redis).<br>
+                                        Grafos: Especializadas en gestionar datos altamente interconectados (por ejemplo, Neo4j).
+                                    </td>
+                                </tr>     
+                                    <th scope="row">Alta Disponibilidad y Tolerancia a Fallos:</th>
+                                    <td>Las bases de datos NoSQL están diseñadas para garantizar la disponibilidad y la recuperación ante fallos mediante la replicación de datos y otras técnicas de redundancia.</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Rendimiento</th>
+                                    <td>Optimizadas para operaciones de lectura y escritura rápidas, lo que las hace adecuadas para aplicaciones que requieren procesamiento de grandes volúmenes de datos en tiempo real.</td>
+                                </tr> 
+                            </tbody>
+                        </table>
                         
                         Ventajas<br>
                         
